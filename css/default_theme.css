@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Regular;
+    src: url('../text-fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: light;
+    src: url('../text-fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    src: url('../text-fonts/Roboto-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    z-index: 1000;
+    width:1700px;
+    border-radius:0px;
+    height:60px;
+    background: rgba(255,255,255,1);
+    border:none;
+}
+body{
+    font-family: "Regular";
+}
+.icon-nav{
+    padding: 10px;
+}
+.icon-nav a img{
+    height: 30px;
+    width:auto;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+}
+.icon-nav a img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.carousel .item{
+    height:60vh;
+    border-bottom:10px solid #fdd835;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/hero_carousel.png');
+}
+
+.events{
+    background-color: rgba(0,0,0,0.09);
+    overflow: auto;
+    margin: 20px 0;
+}
+.events h3{
+    font-size:30px;
+    color:#3c78aa;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.events .list .item{
+    overflow: auto;
+}
+.events .list .item .img{
+    background-color: #fdd835;
+    height:200px;
+    width:200px;
+    margin: 0 10px;
+}
+.events .list .item .desc{
+    width:300px;
+    height:auto;
+    padding: 5px;
+}
+.events .list .item .desc h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.events .list .item .desc p{
+    font-weight: nomal;
+    font-size: 16px;
+    color:rgba(0,0,0,0.7);
+}
+.events .list .item .desc span{
+    font-weight: nomal;
+    font-size: 16px;
+    color:#fff;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fdd835;
+}
+.box-link{
+    color:#000;
+    background-color: #fdd835;
+    margin: 10px auto;
+    display: block;
+    width:150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* about section */
+.about{
+    border: 10px solid rgba(0,0,0,0.09);
+    position: relative;
+    margin: 10px auto;
+    height: auto;
+}
+.about h3{
+    font-size:30px;
+    color:#3c78aa;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+    width:300px;
+    text-align:center;
+    position: absolute;
+    top:-50px;
+    left:200px;
+}
+.about p{
+    font-weight: nomal;
+    font-size: 20px;
+    color:rgba(0,0,0,0.7);
+    padding: 10px;
+    margin: 10px auto;
+    width:60%;
+}
+
+/* Location and Address */
+
+.location-address{
+    width:1500px;
+    margin: 0 auto;
+    position: relative;
+}
+.location-address iframe{
+    position: relative;
+    top:0;
+    left:0;
+    width: 1500px;
+    margin: 0;
+}
+.location-address .top-index{
+    position: absolute;
+    bottom:300px;
+    z-index: 999;
+    left:0;
+    background-color: rgba(253, 216, 53,0.5);
+    width:400px;
+}
+.location-address .top-index h3{
+    font-size:30px;
+    color:#3c78aa;
+    font-weight: bold;
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+.location-address .top-index p{
+    font-size:20px;
+    color:rgba(0,0,0,0.7);
+    font-weight: bold;
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    text-indent: 30px;
+}
+/* join section */
+.join{
+    background-color: #3c78aa;
+    height:auto;
+    width: 1700px;
+    padding: 50px 0;
+    position: relative;
+}
+.join h3{
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    font-weight:bold;
+}
+.join .container{
+    background-color: rgba(0,0,0,0.5);
+    padding: 100px 0;
+}
+
+/* Footer */
+footer {
+    width:1799px;
+    background-color:#3c78aa;
+    border-top: 10px solid #fdd835;
+    height:100px;
+}
+footer ul{
+    overflow: auto;
+    width:900px;
+    height:80px;
+    margin: 10px 0 0 0;
+}
+footer ul li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+}
+footer a{
+    color:#fff;
+    font-size: 16px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+footer a:hover{
+    color:#fdd835;
+    text-decoration: none;
+}
